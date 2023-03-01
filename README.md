@@ -12,9 +12,22 @@
 | vi +/str *filename* | Edit *filename* at first occurance of str   |
 
 ## Allowing Users to Connect via SSH
+
+To allow specific users to connect to your SSH server using the "AllowUsers" directive in the **sshd_config** file, follow these steps:
+
+1. Open the sshd_config file. This file is usually located in the "/etc/ssh/" directory. You can use any text editor to open the file.
+```powershell
+vi /etc/ssh/sshd_config
+```
+2. 
+3. 
+
 cat /etc/ssh/sshd_config
+
 To find a character string, type / followed by the string you want to search for, and then press Return. 
 vi positions the cursor at the next occurrence of the string. For example, to find the string “meta,” type /meta followed by Return.
+
+
 
 
 # Microsoft Azure PowerShell
