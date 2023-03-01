@@ -16,9 +16,9 @@
 To allow specific users to connect to your SSH server using the "AllowUsers" directive in the **sshd_config** file, follow these steps:
 
 1. Open the sshd_config file. This file is usually located in the "/etc/ssh/" directory. You can use any text editor to open the file.
-```powershell
-vi /etc/ssh/sshd_config
-```
+    ```powershell
+    vi /etc/ssh/sshd_config
+    ```
 2. 
 3. 
 
