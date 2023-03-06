@@ -18,9 +18,10 @@ To allow specific users to connect to your SSH server using the "AllowUsers" dir
         AllowUsers user1 user2
         ```
 4. Save the changes to the sshd_config file and exit the text editor.
-5. Restart the SSH service to apply the changes. You can use the following command to restart the SSH service
+5. Restart the SSH service to apply the changes. You can use the following command to restart the SSH service | comando | accion | servicio
     ```powershell
-        sudo service ssh restart
+    
+        sudo systemctl restart ssh
         ```
 
 ## Modes & Controls
